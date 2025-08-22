@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_WaterSources_5 = function(feature, resolution){
+var style_EmergencyWaterSources_5 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -17,12 +17,12 @@ var style_WaterSources_5 = function(feature, resolution){
     var offsetX = 0;
     var offsetY = 0;
     var placement = 'point';
-    if (feature.get("type") !== null) {
-        labelText = String(feature.get("type"));
+    if (feature.get("Type") !== null) {
+        labelText = String(feature.get("Type"));
     }
     var style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 4.0 + size,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(72,123,182,1.0)'})}),
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(31,120,180,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
