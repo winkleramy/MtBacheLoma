@@ -3,4 +3,4 @@
 - [Explore Interactive Map](https://winkleramy.github.io/MtBacheLoma/map.html)
 - [Download Map for Offline Use](https://winkleramy.github.io/MtBacheLoma/map.pdf)
 - [Contribute or Report Issue with Map](https://winkleramy.github.io/MtBacheLomaPrietaPlus)
-- [Learn more about Mt Bache Loma Prieta Plus Firewise](https://winkleramy.github.io/Firewise)
+- [Go to Mt Bache Loma Prieta Plus Firewise](https://winkleramy.github.io/Firewise)
