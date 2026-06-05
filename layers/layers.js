@@ -100,11 +100,11 @@ lyr_CommunityBoundary_2.set('fieldImages', {'id': 'Hidden', 'name': 'Hidden', })
 lyr_RefugeAreas_3.set('fieldImages', {'id': 'Hidden', 'describe': 'TextEdit', 'Address': 'TextEdit', });
 lyr_EmergencyVehicleTurnArounds_4.set('fieldImages', {'id': 'Hidden', 'address': 'TextEdit', 'describe': 'TextEdit', 'Notes': 'TextEdit', });
 lyr_EmergencyWaterSources_5.set('fieldImages', {'id': 'TextEdit', 'Type': 'TextEdit', 'Gallons': 'Range', 'Material': 'TextEdit', 'Source': 'TextEdit', 'Address': 'TextEdit', 'Longitude': 'TextEdit', 'Latitude': 'TextEdit', 'Notes': 'TextEdit', 'MakePublic': 'Range', });
-lyr_AssessorParcels_1.set('fieldLabels', {'OBJECTID': 'inline label - visible with data', 'APN': 'inline label - visible with data', 'APNNODASH': 'inline label - visible with data', 'SITEADD': 'inline label - visible with data', 'SITEADD2': 'inline label - visible with data', 'ACRES': 'inline label - visible with data', 'SITEADDNO': 'no label', });
+lyr_AssessorParcels_1.set('fieldLabels', {'OBJECTID': 'inline label - visible with data', 'APN': 'inline label - visible with data', 'APNNODASH': 'inline label - visible with data', 'SITEADD': 'inline label - visible with data', 'SITEADD2': 'inline label - visible with data', 'ACRES': 'inline label - visible with data', 'SITEADDNO': 'hidden field', });
 lyr_CommunityBoundary_2.set('fieldLabels', {});
 lyr_RefugeAreas_3.set('fieldLabels', {'describe': 'inline label - visible with data', 'Address': 'inline label - visible with data', });
-lyr_EmergencyVehicleTurnArounds_4.set('fieldLabels', {'address': 'inline label - visible with data', 'describe': 'inline label - visible with data', 'Notes': 'no label', });
-lyr_EmergencyWaterSources_5.set('fieldLabels', {'id': 'no label', 'Type': 'inline label - visible with data', 'Gallons': 'inline label - visible with data', 'Material': 'inline label - visible with data', 'Source': 'inline label - visible with data', 'Address': 'inline label - visible with data', 'Longitude': 'inline label - visible with data', 'Latitude': 'inline label - visible with data', 'Notes': 'hidden field', 'MakePublic': 'hidden field', });
+lyr_EmergencyVehicleTurnArounds_4.set('fieldLabels', {'address': 'inline label - visible with data', 'describe': 'inline label - visible with data', 'Notes': 'hidden field', });
+lyr_EmergencyWaterSources_5.set('fieldLabels', {'id': 'hidden field', 'Type': 'inline label - visible with data', 'Gallons': 'inline label - visible with data', 'Material': 'inline label - visible with data', 'Source': 'inline label - visible with data', 'Address': 'inline label - visible with data', 'Longitude': 'inline label - visible with data', 'Latitude': 'inline label - visible with data', 'Notes': 'hidden field', 'MakePublic': 'hidden field', });
 lyr_EmergencyWaterSources_5.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
